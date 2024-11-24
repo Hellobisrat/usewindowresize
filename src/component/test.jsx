@@ -1,0 +1,25 @@
+
+
+import useWindowResize from './index'
+
+
+export default function UseWindowResizeTest(){
+
+  const windowSize = useWindowResize()
+  const {width,height}= windowSize
+
+  return <div>
+    <h1>Use Window resize Hook</h1>
+    <p>
+      width is {width}
+    </p>
+    <p>
+      Height is {height}
+    </p>
+  </div>
+
+}
+
+; // Corrected path
+
+
